@@ -7,7 +7,6 @@ import my from '../component/nav/my.vue';
 import search1 from '../component/nav/search1.vue';
 import search2 from '../component/nav/search2.vue';
 import msg from '../component/nav/msg.vue';
-import login from '../component/nav/login.vue';
 import detail from '../component/nav/detail.vue'
 
 export default new VueRouter({
@@ -23,7 +22,6 @@ export default new VueRouter({
 		{path:'/search1',component:search1},
 		{path:'/search2',component:search2},
 		{path:'/msg',component:msg},
-		{path:'/login',component:login},
-		{path:'/detail',component:detail},
+		{path:'/detail',component:detail}
 	]
 })

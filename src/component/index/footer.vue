@@ -19,7 +19,7 @@
 			   </router-link>
 			  </mt-tab-item>
 			  <mt-tab-item id="我的">
-			    <router-link to="/login">
+			    <router-link to="/my">
 			    	<span class="iconfont icon-wode"></span><br />
 			    	我的
 			    </router-link>

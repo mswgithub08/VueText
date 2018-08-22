@@ -31,8 +31,42 @@
 				<li><img src="../../assets/images/zuopin1.png" alt="" /></li>
 			</ul>
 		</div>
-		<ul>
-			<li></li>
+		<ul class="list">
+			<li>
+				<router-link to="/my">
+					<span class="ph"><img src="../../assets/images/myhome_jifen@3x.png"/></span>
+					<p>积分商城</p>					
+					<span class="right"><em>免费兑换</em>></span>
+				</router-link>			
+			</li>
+			<li>
+				<router-link to="/my">
+					<span class="ph"><img src="../../assets/images/myhome_xiaoxi@3x.png"/></span>
+					<p>消息通知</p>
+					<span class="right">></span>
+				</router-link>			
+			</li>
+			<li>
+				<router-link to="/my">
+					<span class="ph"><img src="../../assets/images/myhome_fabu@3x.png"/></span>
+					<p>我的发布</p>
+					<span class="right">></span>
+				</router-link>			
+			</li>
+			<li>
+				<router-link to="/my">
+					<span class="ph"><img src="../../assets/images/myhome_shoucang@3x.png"/></span>
+					<p>我的收藏</p>
+					<span class="right">></span>
+				</router-link>			
+			</li>
+			<li>
+				<router-link to="/my">
+					<span class="ph"><img src="../../assets/images/myhome_dingdan@3x.png"/></span>
+					<p>我的订单</p>
+					<span class="right">></span>
+				</router-link>			
+			</li>
 		</ul>
 	</div>
 </template>
@@ -41,7 +75,7 @@
 </script>
 
 <style scoped>
-	.my{
+	body,.my{
 		background: #f5f5f5;
 		width: 100%;
 		height: 100%;
@@ -122,12 +156,63 @@
 	
 	.honor{
 		width: 100%;
-		padding-bottom: 10%;
-		background: red;
+		padding: 10px;
+		background: #fff;
+		margin-top: 10px;
+		box-sizing: border-box;
 	}
 	.honor ul{
 		width: 100%;
 		display: flex;
 	}
+	.honor ul li{
+		width: 11%;
+		margin-right: 10px;
+	}
+	.honor ul li img{
+		width: 100%;
+	}
+	.honor h2{
+		font-size: 14px;
+		color: #333;
+		margin-bottom: 10px;
+	}
 	
+	.list{
+		background: #f5f5f5;
+		margin-top: 10px;
+		width: 100%;
+	}
+	.list li a{
+		color: #333;
+		display: flex;
+		height: 30px;
+		line-height: 30px;
+	}
+	.list li{
+		width: 100%;
+		background: #fff;
+		padding: 5px 10px;
+		font-size: 13px;
+		box-sizing: border-box;
+	}
+	.list li:nth-of-type(2){
+		margin: 10px 0;
+	}
+	.list li a .ph{
+		width: 25px;
+		height: 25px;
+		margin-right: 10px;
+	}
+	.list a img{
+		width: 100%;
+	}
+	.list li a .right em{
+		margin-right: 10px;
+		font-size: 12px;
+		color: #ff4c39;
+	}
+	.list li a p{
+		flex-grow: 1;
+	}
 </style>
