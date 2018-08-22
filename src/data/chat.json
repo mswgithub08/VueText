@@ -1,0 +1,45 @@
+{
+	"title":"chat",
+	"banner":[
+		{"pic":"src/assets/images/chufangreshi.png"},
+		{"pic":"src/assets/images/huixiang.jpg"},
+		{"pic":"src/assets/images/meishijgushi.jpg"},
+		{"pic":"src/assets/images/huoguo.jpg"},
+		{"pic":"src/assets/images/hongbei.jpg"},
+		{"pic":"src/assets/images/chirou.jpg"},
+		{"pic":"src/assets/images/meishiriji.jpg"}
+	],
+	"box":[
+		{
+			"pic":"src/assets/images/t113291_86576.jpg",
+			"author":"美食小编",
+			"from":"餐桌食光",
+			"title":"淘宝内部大额优惠券#【点击这里，立即领取】#",
+			"list":[
+				{"pic":"src/assets/images/s162113291_153423882795752.png"},
+				{"pic":"src/assets/images/s162113291_153423882795752.png"}
+			],
+			"word":2,
+			"like":330
+		},
+		{
+			"pic":"src/assets/images/t5838035_152231414035796.jpg",
+			"author":"Xiao小C",
+			"from":"餐桌食光",
+			"title":"我的早餐日记~小米粥，烤鸡翅，千层饼，香菇丁 做自己喜欢的，吃自己会做的，何尝不是一种享受!",
+			"list":[
+				{"pic":"src/assets/images/s1625838035_151131115170530.jpg"},
+				{"pic":"src/assets/images/s1625838035_151131115248575.jpg"},
+				{"pic":"src/assets/images/s1625838035_151131115319763.jpg"},
+				{"pic":"src/assets/images/s1625838035_151131115453803.jpg"},
+				{"pic":"src/assets/images/s1625838035_151131115535639.jpg"},
+				{"pic":"src/assets/images/s1625838035_151131115545830.jpg"},
+				{"pic":"src/assets/images/s1625838035_151131115627521.jpg"},
+				{"pic":"src/assets/images/s1625838035_151131115715050.jpg"},
+				{"pic":"src/assets/images/s1625838035_151131115708200.jpg"}
+			],
+			"word":2,
+			"like":330
+		}
+	]
+}
